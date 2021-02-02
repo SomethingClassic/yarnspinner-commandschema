@@ -1,0 +1,17 @@
+{
+    "YarnSpinner.commandValidationSchema": {
+        "commands": {
+            "stop": {"maxArgs": 0},
+            "if": {"minArgs": 1},
+            "else": {"maxArgs": 0},
+            "elseif": {"minArgs": 1},
+            "endif": {"maxArgs": 0},
+            "wait": {"minArgs": 1, "maxArgs": 1, "types": ["number"]},
+            "SetDirection": {"minArgs": 2, "types": ["string", "direction"]},
+            "Move": {"minArgs": 2, "maxArgs": 3, "types": ["string", "direction", "number"]}
+        },
+        "enums": {
+            "direction": ["up", "down", "left", "right", "forward", "backward"]
+        }
+    }
+}

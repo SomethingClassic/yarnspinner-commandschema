@@ -1,0 +1,15 @@
+title: good2
+---
+JOHN: This is some text
+<<Move Player>>
+<<Move Player 1>>
+<<Move Player up>>
+<<Move Player up 1>>
+<<Move Player up three>>
+<<Move Player up 1 1>>
+
+<<if foo = 123>>
+<<elseif foo = 456>>
+<<else>>
+<<endif>>
+===
